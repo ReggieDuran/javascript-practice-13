@@ -10,7 +10,7 @@ button.addEventListener('click', () => {
         console.log(result);
       }).catch( error => {
         console.log(error);
-      })
+      });
   } else {
     alert('You need to copy manually');
   }
